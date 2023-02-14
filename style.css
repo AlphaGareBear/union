@@ -1,4 +1,22 @@
-a {
-    color: aliceblue;
+* {
+    border: 2px solid red;
+}
+
+.subsection {
+    display: flex;
+    height: 35px;
+    text-align: center;
+    font-size: 1.5em;
+    padding-left: 0px;
+}
+
+.subsection a {
+    background-color: rgb(100,100,100);
+    color: rgb(255, 255, 255);
+    height: auto;
+    flex: 1 2 0;
+}
+
+.subsection a:hover {
     background-color: rgb(50,50,50);
 }
